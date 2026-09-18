@@ -1,0 +1,2 @@
+"""Arrow Escape game package."""
+
