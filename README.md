@@ -122,12 +122,14 @@ python -m pip install -r requirements-dev.txt
 │  ├─ scoring.py           # 得分、时间和星级计算
 │  └─ ui.py                # 按钮、字体和图元绘制
 ├─ tests/                  # 规则与关卡测试
-├─ docs/                   # 游戏截图
-├─ 游戏策划.md             # 游戏策划与开发文档
-├─ 游戏策划扩展.md         # 扩展功能策划与实施基线
+├─ assets/                 # 运行时背景与 Windows 图标
+├─ docs/                   # 截图、策划与核对文档
+│  ├─ 游戏策划.md         # 游戏策划与开发文档
+│  └─ 游戏策划扩展.md     # 扩展功能策划与实施基线
 ├─ arrow_escape.spec       # PyInstaller 构建配置
 ├─ build.ps1               # 测试后打包脚本
-└─ requirements.txt
+├─ requirements.txt        # 运行依赖
+└─ requirements-dev.txt    # 构建依赖
 ```
 
 ## 资源说明
